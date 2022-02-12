@@ -1,5 +1,5 @@
 .feynman__link {
-  position:absolute;
+  position: absolute;
   top: 50%;
   right: 48px;
   text-decoration: none;
@@ -8,3 +8,8 @@
   font-size: 36px;
   font-weight: normal;
  }
+
+ .feynman__link:hover {
+  opacity: 0.3;
+  transition: opacity 2s;
+}
